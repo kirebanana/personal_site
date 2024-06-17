@@ -1,4 +1,4 @@
-let flag1=0, flag2=0;
+let flag1=1, flag2=1;
 function popupLeft(){
     const popup = document.getElementById("leftPopup");
     if(flag1==0){
