@@ -1,0 +1,102 @@
+height, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Segoe MDL2 Assets";
+    background-size: cover;
+    background: url("R.jpg") repeat fixed center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+}
+#nav span{
+    font-size: 25px;
+}
+#nav button{
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+.popup{
+    width: 450px;
+
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: left;
+    color: white;
+    font-family: "Yu Gothic UI Bold",sans-serif;
+}
+.popup:last-child{
+    margin-bottom: 0px;
+}
+h5{
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+}
+.box{
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: left;
+    margin: 5% auto auto;
+    color: white;
+    font-family: "Yu Gothic UI Bold",sans-serif;
+}
+.box-img{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 22px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+.box p{
+    text-align: justify;
+}
+p{
+    font-size: 18px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+svg{
+    height: 55px;
+    wight: 55px
+}
+img{
+    width: inherit;
+    height: inherit;
+}
+a{
+    text-decoration: none;
+}
+#idk{
+    display: flex;
+}
+#idk h5:last-child{
+    margin-left: 110px;
+    margin-top: 38px;
+    font-size: 15px;
+}
