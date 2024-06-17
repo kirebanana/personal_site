@@ -15,10 +15,10 @@ function popupRight(){
     const popup = document.getElementById("rightPopup");
     if(flag2==0){
         popup.style.visibility = "hidden";
-        flag1 = 1;
+        flag2 = 1;
     }
     else{
         popup.style.visibility="visible"
-        flag1=0;
+        flag2=0;
     }
 }
