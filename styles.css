@@ -6,7 +6,7 @@ height, body{
 body{
     font-family: "Segoe MDL2 Assets";
     background-size: cover;
-    background: url("R.jpg") repeat fixed center;
+    background: url("Untitled-1.jpg") repeat fixed center;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -102,4 +102,27 @@ a{
 }
 .popup{
     visibility: hidden;
+}
+#rightPopup h5{
+    font-size: 15px;
+}
+#rightPopup > h5:nth-child(2n){
+    text-align: right;
+}
+#skills{
+    line-height: 22px   ;
+}
+#leftPopup{
+    margin-bottom: -5px;
+    line-height: 34px;
+    font-family: "Yu Gothic UI Bold", sans-serif;
+}
+#section1{
+    margin-right: 30px;
+}
+#section2{
+    margin-left: 30px;
+}
+#hobbies{
+    display: flex;
 }
